@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shankar Sirmal</title>
+    <link rel="icon" href="mylogo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5871500a6b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" alt="logo" class="logo" height="100" width="243">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text intro">
+                <p>Web Designer</p>
+                <h1>Hi, I'am <span>Shankar Sirmal</span> <br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!----------ABOUT---------->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>My name is shankar i used to study about tech since my childhood thus i took my currier in computer engineering now i am desigining webpages, create them with my knowlegdge i have, i am a slow lerner but i want wvery thin to be perfect thus it take litte bit more time than usual. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing web</li>
+                            <li><span>Manage site</span><br>Improve and manage</li>
+                            <li><span>Videography</span><br>Making small tech info</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Current</span><br>UIx/UX design Training at home yt</li>
+                            <li><span>2022- 2024</span><br>High School, learning python</li>
+                            <li><span>2015-2022</span><br>Enjoying school life</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2028</span><br>
+                            Pillai college og engineering</li>
+                            <li><span>2024</span><br>Kvs High school</li>
+                            <li><span>2022</span><br>Kvs Middle school</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------SERVICES---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo beatae impedit enim velit soluta culpa temporibus asperiores delectus nisi, dolorum distinctio obcaecati explicabo amet voluptate ex saepe. Ad, maiores nobis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Suggetions</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo beatae impedit enim velit soluta culpa temporibus asperiores delectus nisi, dolorum distinctio obcaecati explicabo amet voluptate ex saepe. Ad, maiores nobis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Social media</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo beatae impedit enim velit soluta culpa temporibus asperiores delectus nisi, dolorum distinctio obcaecati explicabo amet voluptate ex saepe. Ad, maiores nobis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------PORTIFOLIO---------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="work">
+                    <div class="layer">
+                        <h3>Little momos shop</h3>
+                        <p>This is my first shoping site where you can order our momos home dilivery.</p>
+                        <a href="https://shankarsirmal.github.io/Little-Momos-Shop-v3/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="work">
+                    <div class="layer">
+                        <h3>My Youtube channel</h3>
+                        <p>This is my yt chennel where i uploading videos.</p>
+                        <a href="https://www.youtube.com/@mrlightwebb"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="work">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>This app connect you to the talented peoples around the world. Download It from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+     <!-- --------CONTACT------- -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact ME</h1>
+                    <P> <i class="fa-solid fa-paper-plane"></i> Shankarsirmaal@gmail.com</P>
+                    <p> <i class="fa-solid fa-square-phone"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="ShankarSirmal_Resume_CSI_PCE.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+     </div>
+    <div class="center">
+        <a href="#" class="btop">Top↑</a>
+    </div>
+     <div class="copyright">
+        <p>Copyright &copy; Shan. Made with <i class="fa-solid fa-heart"></i> love</p>
+    </div>
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyUTWUNO0WQgdJOJXM3yXBJOTEBr3MXViSbbfUIiUZcWi4OrQkjfaG46MKPfo7IhtvPGw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
